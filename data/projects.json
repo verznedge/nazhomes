@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1",
+    "slug": "opulent",
+    "title": "The Opulent Residence",
+    "description": "The Opulent Residence is the heart of the thriving neighborhood in the Airport Residential Area of Accra. It is a Residential Development consisting of 1, 2-bedrooms, and penthouses as part of its luxurious offering.",
+    "imageSrc": [
+      "/assets/slider/6.jpg",
+      "/assets/slider/7.jpg",
+      "/assets/slider/2.jpg",
+      "/assets/slider/3.jpg",
+      "/assets/slider/4.jpg",
+      "/assets/slider/5.jpg",
+      "/assets/slider/6.jpg",
+      "/assets/slider/8.jpg",
+      "/assets/slider/10.jpg"
+    ],
+    "location": "Airport Residential Area",
+    "status": "completed",
+    "brochureSrc": "/assets/brochures/THE OPULENT RESIDENCE (Final)-compressed.pdf",
+    "address": { "latitude": 5.612884, "longitude": -0.182889 },
+    "logo": "/assets/logos/opulent.png"
+  }
+]
