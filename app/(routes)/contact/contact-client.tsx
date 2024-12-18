@@ -108,7 +108,7 @@ const ContactClient = (props: Props) => {
             <div className="text-neutral-500">
               <p>Call (233) 2721-60000</p>
               <p>Call (233) 2671-60000</p>
-              <p>Email info@nazhomesgh.com</p>
+              <p>Email info@nazhomesgh.co</p>
             </div>
           </div>
           <div className="flex flex-col items-start gap-5">

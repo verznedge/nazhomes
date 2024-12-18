@@ -20,7 +20,7 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nazhomesgh.com'),
+  metadataBase: new URL('https://nazhomesgh.co'),
   title: {
     default: 'Premier Property Developers in Ghana - Naz Homes',
     template: '%s | Naz Homes - Luxury Real Estate in Ghana',
@@ -308,7 +308,7 @@ export const metadata: Metadata = {
     title: 'Naz Homes - Premier Property Developers in Ghana',
     description:
       'Discover Naz Homes, the premier property developers in Ghana. We specialize in creating stunning and luxurious properties that exceed your expectations.',
-    url: 'https://nazhomesgh.com',
+    url: 'https://nazhomesgh.co',
     siteName: 'Naz Homes',
     locale: 'en-US',
     type: 'website',

@@ -12,7 +12,7 @@ export async function POST(request: Request) {
   console.log(firstName, lastName, email, number, message);
 
   await resend.emails.send({
-    from: 'contact@emails.nazhomesgh.com',
+    from: 'contact@emails.nazhomesgh.co',
     to: 'maabsuf@gmail.com',
     subject: 'New message',
     react: ContactEmail({ firstName, lastName, email, number, message }),
