@@ -4,15 +4,11 @@ import type { Metadata } from 'next';
 import { Manrope, Playfair_Display } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/react';
 
-const font = Playfair_Display({
-  subsets: ['latin'],
-  weight: '400',
-});
-
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
 });
+
 const manrope = Manrope({
   subsets: ['latin'],
   weight: '300',

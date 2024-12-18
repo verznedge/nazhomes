@@ -1,6 +1,15 @@
 import { MetadataRoute } from 'next';
+import projectList from '../data/projects.json';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const projectsEntries: MetadataRoute.Sitemap = projectList.map(
+    ({ slug }) => ({
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}/projects/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 1,
+    })
+  );
   return [
     {
       url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
@@ -26,5 +35,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'monthly',
       priority: 0.6,
     },
+    ...projectsEntries,
   ];
 }
